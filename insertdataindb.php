@@ -24,6 +24,6 @@ if($res)
     echo "the data inserted inside the table sucessfully <br>";
 }
 else
-echo "the data not inserted ".mysqli_connect();
+echo "the data not inserted ".mysqli_error($conn);
 
 ?>
