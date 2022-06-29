@@ -30,11 +30,11 @@ if(mysqli_query($conn, $sql)){
 
 $res = mysqli_query($conn, $sql);
 
-/*if($res)
+if($res)
 {
     echo "data inserted inside the database sucessfully !";
 }
 else
 echo "data not inserted successfully". mysqli_error($conn);
-*/
+
 ?>
